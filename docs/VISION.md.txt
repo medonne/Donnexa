@@ -1,0 +1,241 @@
+# 🌟 VISION — Donnexa
+
+> Última atualização: Julho de 2026
+
+---
+
+# 📖 Nossa Visão
+
+O Donnexa nasceu da paixão pelos livros e da vontade de transformar dados em conhecimento.
+
+Mais do que um sistema para registrar leituras, o Donnexa busca oferecer uma experiência que incentive o hábito da leitura, ajude leitores a atingirem seus objetivos e transforme estatísticas em motivação diária.
+
+Nossa visão é criar uma plataforma que acompanhe toda a jornada do leitor, desde a organização da biblioteca até a análise completa dos seus hábitos de leitura.
+
+---
+
+# 🎯 O Problema
+
+Muitos leitores utilizam planilhas, aplicativos ou sites para registrar livros, mas essas soluções costumam apresentar limitações.
+
+Alguns sistemas organizam a biblioteca, mas oferecem poucas análises.
+
+Outros apresentam estatísticas, porém não auxiliam no planejamento das metas.
+
+Também é comum que o usuário precise utilizar diversas plataformas diferentes para controlar sua rotina de leitura.
+
+O Donnexa pretende reunir tudo isso em um único lugar.
+
+---
+
+# 💡 Nossa Solução
+
+Criar uma plataforma inteligente capaz de unir:
+
+- Biblioteca pessoal
+- Registro de leituras
+- Controle de metas
+- Estatísticas avançadas
+- Dashboard interativo
+- Recomendações
+- Motivação diária
+- Inteligência baseada em dados
+
+Cada leitura registrada passa a gerar informações que ajudam o usuário a compreender melhor seus hábitos e evoluir continuamente.
+
+---
+
+# ❤️ Nossa Filosofia
+
+Acreditamos que cada livro lido representa muito mais do que uma simples leitura.
+
+Cada página contribui para o aprendizado.
+
+Cada meta alcançada fortalece o hábito.
+
+Cada dado registrado conta uma história.
+
+Por isso, nosso objetivo não é apenas armazenar informações, mas transformar números em significado.
+
+---
+
+# 👤 Para quem o Donnexa foi criado?
+
+O Donnexa é destinado a pessoas que desejam transformar a leitura em um hábito constante.
+
+Nosso público inclui:
+
+- Leitores iniciantes.
+- Leitores assíduos.
+- Colecionadores de livros.
+- Estudantes.
+- Profissionais.
+- Pessoas apaixonadas por organização e produtividade.
+
+---
+
+# 🌱 Princípios do Produto
+
+## Simplicidade
+
+Registrar uma leitura deve ser rápido, intuitivo e agradável.
+
+---
+
+## Organização
+
+Toda informação deve estar facilmente acessível.
+
+O usuário nunca deve sentir que perdeu um livro ou uma informação.
+
+---
+
+## Inteligência
+
+O sistema deve transformar dados em conhecimento.
+
+Ao invés de apenas mostrar números, deve gerar interpretações e sugestões úteis.
+
+---
+
+## Motivação
+
+O Donnexa deve incentivar o usuário a continuar lendo.
+
+Cada interação deve reforçar positivamente o progresso realizado.
+
+---
+
+## Evolução Contínua
+
+O produto será desenvolvido continuamente.
+
+Novas funcionalidades serão incorporadas conforme novas tecnologias forem aprendidas e novas necessidades forem identificadas.
+
+---
+
+# 🚀 Visão de Futuro
+
+O Donnexa será desenvolvido em etapas.
+
+## Fase 1
+
+Dashboard em Power BI.
+
+Objetivo:
+
+Aprender Business Intelligence e modelagem de dados.
+
+---
+
+## Fase 2
+
+Migração para SQL Server.
+
+Objetivo:
+
+Criar uma base de dados robusta e escalável.
+
+---
+
+## Fase 3
+
+Desenvolvimento da API.
+
+Objetivo:
+
+Disponibilizar os dados para aplicações externas.
+
+---
+
+## Fase 4
+
+Desenvolvimento do site.
+
+Objetivo:
+
+Permitir acesso à biblioteca por qualquer navegador.
+
+---
+
+## Fase 5
+
+Aplicativo móvel.
+
+Objetivo:
+
+Levar toda a experiência do Donnexa para Android e iOS.
+
+---
+
+## Fase 6
+
+Inteligência Artificial.
+
+Objetivo:
+
+Oferecer recomendações personalizadas, previsões de metas, análise de hábitos e assistente de leitura.
+
+---
+
+# 🌍 Nosso Sonho
+
+Queremos que o Donnexa deixe de ser apenas um projeto de estudos e se torne uma plataforma capaz de acompanhar milhares de leitores em suas jornadas literárias.
+
+Cada livro registrado, cada página lida e cada meta alcançada representam uma pequena conquista.
+
+O Donnexa existe para tornar essas conquistas visíveis.
+
+---
+
+# 📈 O Donnexa como Projeto de Aprendizado
+
+Este projeto também representa minha evolução como estudante de Análise e Desenvolvimento de Sistemas.
+
+Cada nova tecnologia aprendida durante a graduação será aplicada ao Donnexa.
+
+Assim, o projeto crescerá junto com minhas habilidades técnicas, tornando-se um portfólio vivo da minha trajetória profissional.
+
+As principais tecnologias previstas incluem:
+
+- Excel
+- Power Query
+- Power BI
+- DAX
+- SQL Server
+- Python
+- Git
+- GitHub
+- HTML
+- CSS
+- JavaScript
+- React
+- APIs REST
+- Azure
+
+---
+
+# 🧭 Nossa Identidade
+
+O Donnexa busca transmitir uma experiência:
+
+- 📚 Intelectual
+- ✨ Moderna
+- 🗂️ Organizada
+- 🤝 Acolhedora
+
+Cada decisão de design, desenvolvimento e arquitetura será guiada por esses quatro pilares.
+
+---
+
+# ✨ Nosso Propósito
+
+Mais do que acompanhar livros.
+
+Mais do que medir páginas.
+
+Mais do que criar gráficos.
+
+O Donnexa existe para mostrar que toda leitura deixa uma marca.
+
+E que cada marca merece ser lembrada.

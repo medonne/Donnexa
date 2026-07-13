@@ -1,0 +1,461 @@
+# 📋 PRODUCT BACKLOG — Donnexa
+
+> Última atualização: Julho de 2026
+
+---
+
+# 📖 Sobre este documento
+
+Este documento reúne todas as funcionalidades planejadas para o Donnexa.
+
+O objetivo é organizar a evolução do produto, priorizando entregas de maior valor para o usuário e servindo como guia para o desenvolvimento do projeto.
+
+As funcionalidades estão organizadas por módulos e classificadas por prioridade.
+
+---
+
+# Legenda
+
+🟢 Alta prioridade
+
+🟡 Média prioridade
+
+⚪ Baixa prioridade
+
+💡 Ideia futura
+
+---
+
+# 📚 Módulo Biblioteca
+
+## Cadastro
+
+🟢 Cadastro de livros
+
+🟢 Cadastro de autores
+
+🟢 Cadastro de editoras
+
+🟢 Cadastro de gêneros
+
+🟢 Cadastro de formatos
+
+🟢 Cadastro de idiomas
+
+🟢 Cadastro de ISBN
+
+🟢 Cadastro de capas
+
+---
+
+## Controle
+
+🟢 Possui o livro
+
+🟢 Lista de desejos
+
+🟢 Favorito
+
+🟡 Emprestado
+
+🟡 Localização na estante
+
+🟡 Valor pago
+
+🟡 Data da compra
+
+🟡 Loja
+
+⚪ Estado de conservação
+
+⚪ Assinado pelo autor
+
+⚪ Primeira edição
+
+---
+
+## Coleções
+
+🟡 Séries
+
+🟡 Box
+
+🟡 Coleções
+
+🟡 Universos literários
+
+💡 Ordem de leitura
+
+---
+
+# 📖 Módulo Leituras
+
+## Registro
+
+🟢 Registrar leitura
+
+🟢 Registrar releitura
+
+🟢 Data de início
+
+🟢 Data de conclusão
+
+🟢 Nota
+
+🟢 Status
+
+---
+
+## Status
+
+🟢 Quero ler
+
+🟢 Lendo
+
+🟢 Concluído
+
+🟡 Abandonado
+
+🟡 Pausado
+
+🟡 Relendo
+
+---
+
+## Estatísticas
+
+🟢 Livros lidos
+
+🟢 Releituras
+
+🟢 Páginas lidas
+
+🟢 Nota média
+
+🟢 Média de páginas por livro
+
+🟡 Tempo médio de leitura
+
+🟡 Livros por mês
+
+🟡 Livros por ano
+
+🟡 Dias consecutivos lendo
+
+---
+
+# 🎯 Módulo Metas
+
+## Objetivos
+
+🟢 Meta anual de livros
+
+🟢 Meta anual de páginas
+
+🟢 Livros restantes
+
+🟢 Páginas restantes
+
+🟢 Percentual concluído
+
+🟢 Ritmo necessário
+
+---
+
+## Indicadores
+
+🟢 Média de páginas por dia
+
+🟢 Média de livros por mês
+
+🟢 Dias restantes
+
+🟢 Dias decorridos
+
+🟡 Previsão de conclusão
+
+🟡 Ritmo ideal
+
+🟡 Ritmo atual
+
+🟡 Comparação com anos anteriores
+
+---
+
+# 📊 Módulo Dashboard
+
+## Página Inicial
+
+🟢 KPIs
+
+🟢 Objetivos
+
+🟢 Progresso
+
+🟢 Biblioteca
+
+🟢 Lista de desejos
+
+🟢 Últimos livros
+
+---
+
+## Dashboard Biblioteca
+
+🟢 Livros por gênero
+
+🟢 Livros por editora
+
+🟢 Livros por autor
+
+🟢 Livros por formato
+
+🟢 Livros por idioma
+
+🟡 Livros por década
+
+---
+
+## Dashboard Leituras
+
+🟢 Evolução mensal
+
+🟢 Evolução anual
+
+🟢 Livros por mês
+
+🟢 Páginas por mês
+
+🟡 Heatmap
+
+🟡 Timeline
+
+---
+
+## Dashboard Insights
+
+🟢 Autor favorito
+
+🟢 Gênero favorito
+
+🟢 Editora favorita
+
+🟢 Maior livro
+
+🟢 Menor livro
+
+🟢 Melhor nota
+
+🟢 Livro mais antigo
+
+🟡 Ranking
+
+---
+
+# 🤖 Módulo Inteligência
+
+## Mensagens
+
+🟢 Mensagem diária
+
+🟢 Incentivo à leitura
+
+🟢 Situação da meta
+
+🟢 Páginas restantes
+
+🟢 Livros restantes
+
+---
+
+## Insights
+
+🟢 Você está à frente da meta
+
+🟢 Você está abaixo da meta
+
+🟢 Faltam X páginas
+
+🟢 Faltam X livros
+
+🟡 Seu gênero favorito mudou
+
+🟡 Seu ritmo aumentou
+
+🟡 Você leu mais que no ano passado
+
+---
+
+## Recomendações
+
+🟡 Próximo livro
+
+🟡 Autor semelhante
+
+🟡 Gênero recomendado
+
+🟡 Recomendações por nota
+
+💡 IA para recomendações
+
+---
+
+# 👤 Perfil do Leitor
+
+🟡 Perfil anual
+
+🟡 Perfil histórico
+
+🟡 Ranking pessoal
+
+🟡 Estatísticas gerais
+
+🟡 Recordes
+
+---
+
+# 🏆 Gamificação
+
+🟡 Medalhas
+
+🟡 Conquistas
+
+🟡 Sequência de leitura
+
+🟡 Desafios
+
+🟡 Níveis
+
+💡 Avatar
+
+---
+
+# 🌐 Plataforma Web
+
+🟡 Login
+
+🟡 Cadastro
+
+🟡 Dashboard Online
+
+🟡 Biblioteca Online
+
+🟡 Sincronização
+
+🟡 API
+
+---
+
+# 📱 Aplicativo
+
+🟡 Android
+
+🟡 iOS
+
+🟡 Scanner de ISBN
+
+🟡 Cadastro por câmera
+
+🟡 Widget
+
+🟡 Notificações
+
+---
+
+# 👥 Comunidade
+
+⚪ Amigos
+
+⚪ Compartilhar leitura
+
+⚪ Clubes do livro
+
+⚪ Comentários
+
+⚪ Curtidas
+
+⚪ Ranking entre amigos
+
+---
+
+# 🧠 Inteligência Artificial
+
+💡 Sugestões de leitura
+
+💡 Resumos
+
+💡 Análise de hábitos
+
+💡 Planejamento automático da meta
+
+💡 Recomendações inteligentes
+
+---
+
+# 🔧 Backlog Técnico
+
+## Banco de Dados
+
+🟢 Modelagem relacional
+
+🟢 SQL Server
+
+🟡 Procedures
+
+🟡 Views
+
+🟡 Índices
+
+---
+
+## Backend
+
+🟡 API REST
+
+🟡 Python
+
+🟡 Automações
+
+🟡 ETL
+
+---
+
+## Front-end
+
+🟡 React
+
+🟡 HTML
+
+🟡 CSS
+
+🟡 JavaScript
+
+---
+
+## DevOps
+
+⚪ Docker
+
+⚪ Azure
+
+⚪ CI/CD
+
+⚪ Hospedagem
+
+---
+
+# 📌 Em desenvolvimento
+
+- Dashboard Principal
+- Sistema de Metas
+- KPIs
+- Modelagem do Banco de Dados
+- Documentação
+
+---
+
+# 🎯 Objetivo do Backlog
+
+O Product Backlog é um documento vivo e será atualizado continuamente conforme novas funcionalidades forem surgindo durante o desenvolvimento do Donnexa.
+
+Cada item representa uma oportunidade de evolução do produto e também uma oportunidade de aprendizado e aplicação de novas tecnologias.

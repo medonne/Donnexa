@@ -1,0 +1,395 @@
+# 📖 USER STORIES — Donnexa
+
+> Última atualização: Julho de 2026
+
+---
+
+# Sobre este documento
+
+Este documento reúne as histórias de usuário do Donnexa.
+
+Cada história descreve uma necessidade real do usuário e serve como base para o desenvolvimento das funcionalidades do sistema.
+
+As histórias seguem o padrão:
+
+> **Como [tipo de usuário], quero [funcionalidade], para que [benefício].**
+
+---
+
+# 👤 Persona Principal
+
+## Leitor Organizado
+
+- Gosta de acompanhar suas leituras.
+- Possui biblioteca física e digital.
+- Define metas anuais.
+- Busca estatísticas sobre seus hábitos.
+- Gosta de desafios pessoais.
+- Valoriza organização e simplicidade.
+
+---
+
+# 📚 EPIC 1 — Biblioteca
+
+## US001 — Cadastrar livros
+
+**Como** leitor
+
+**Quero** cadastrar meus livros
+
+**Para que** eu tenha minha biblioteca organizada.
+
+### Critérios de Aceitação
+
+- Deve permitir cadastrar ISBN.
+- Deve permitir cadastrar capa.
+- Deve permitir informar autor.
+- Deve permitir informar editora.
+- Deve permitir informar gênero.
+- Deve permitir informar número de páginas.
+
+---
+
+## US002 — Controlar livros físicos
+
+**Como** leitor
+
+**Quero** informar quais livros possuo
+
+**Para que** eu saiba quais fazem parte da minha biblioteca.
+
+---
+
+## US003 — Lista de desejos
+
+**Como** leitor
+
+**Quero** manter uma lista dos livros que desejo comprar
+
+**Para que** eu possa organizar futuras aquisições e utilizá-la como lista de presentes.
+
+---
+
+## US004 — Favoritos
+
+**Como** leitor
+
+**Quero** marcar livros favoritos
+
+**Para que** eu encontre facilmente minhas obras preferidas.
+
+---
+
+# 📖 EPIC 2 — Leituras
+
+## US005 — Registrar leitura
+
+**Como** leitor
+
+**Quero** registrar uma leitura concluída
+
+**Para que** meu histórico fique atualizado.
+
+---
+
+## US006 — Registrar releitura
+
+**Como** leitor
+
+**Quero** registrar releituras
+
+**Para que** elas também contem nas minhas estatísticas.
+
+---
+
+## US007 — Registrar nota
+
+**Como** leitor
+
+**Quero** atribuir uma nota ao livro
+
+**Para que** eu possa comparar minhas leituras ao longo do tempo.
+
+---
+
+## US008 — Registrar datas
+
+**Como** leitor
+
+**Quero** informar a data de início e conclusão
+
+**Para que** o sistema calcule meu tempo de leitura.
+
+---
+
+# 🎯 EPIC 3 — Metas
+
+## US009 — Meta anual de livros
+
+**Como** leitor
+
+**Quero** definir uma meta anual
+
+**Para que** eu acompanhe meu progresso.
+
+---
+
+## US010 — Meta anual de páginas
+
+**Como** leitor
+
+**Quero** definir uma meta anual de páginas
+
+**Para que** eu tenha uma visão mais precisa do meu objetivo.
+
+---
+
+## US011 — Progresso da meta
+
+**Como** leitor
+
+**Quero** visualizar meu progresso
+
+**Para que** eu saiba quanto falta para atingir minha meta.
+
+---
+
+## US012 — Livros restantes
+
+**Como** leitor
+
+**Quero** saber quantos livros faltam
+
+**Para que** eu consiga planejar minhas próximas leituras.
+
+---
+
+## US013 — Páginas restantes
+
+**Como** leitor
+
+**Quero** visualizar quantas páginas ainda preciso ler
+
+**Para que** eu acompanhe meu ritmo de leitura.
+
+---
+
+## US014 — Média diária
+
+**Como** leitor
+
+**Quero** saber quantas páginas preciso ler por dia
+
+**Para que** eu consiga atingir minha meta anual.
+
+---
+
+## US015 — Previsão de conclusão
+
+**Como** leitor
+
+**Quero** visualizar a previsão de conclusão da meta
+
+**Para que** eu saiba se estou no ritmo esperado.
+
+---
+
+# 📊 EPIC 4 — Dashboard
+
+## US016 — Dashboard inicial
+
+**Como** leitor
+
+**Quero** visualizar um resumo das minhas leituras
+
+**Para que** eu tenha uma visão geral da minha evolução.
+
+---
+
+## US017 — Estatísticas
+
+**Como** leitor
+
+**Quero** visualizar gráficos
+
+**Para que** eu descubra padrões de leitura.
+
+---
+
+## US018 — Gêneros favoritos
+
+**Como** leitor
+
+**Quero** saber quais gêneros mais leio
+
+**Para que** eu conheça meu perfil de leitura.
+
+---
+
+## US019 — Ranking de autores
+
+**Como** leitor
+
+**Quero** visualizar meus autores mais lidos
+
+**Para que** eu descubra minhas preferências.
+
+---
+
+## US020 — Ranking de editoras
+
+**Como** leitor
+
+**Quero** visualizar minhas editoras favoritas
+
+**Para que** eu conheça melhor minha biblioteca.
+
+---
+
+# 🤖 EPIC 5 — Assistente Inteligente
+
+## US021 — Mensagem diária
+
+**Como** leitor
+
+**Quero** receber uma mensagem personalizada
+
+**Para que** eu me mantenha motivado.
+
+---
+
+## US022 — Ritmo da meta
+
+**Como** leitor
+
+**Quero** saber se estou à frente ou atrás da meta
+
+**Para que** eu ajuste meu ritmo de leitura.
+
+---
+
+## US023 — Recomendações
+
+**Como** leitor
+
+**Quero** receber sugestões do próximo livro
+
+**Para que** eu tenha facilidade para escolher minha próxima leitura.
+
+---
+
+## US024 — Insights
+
+**Como** leitor
+
+**Quero** receber insights sobre meus hábitos
+
+**Para que** eu compreenda melhor meu comportamento como leitor.
+
+---
+
+# 🏆 EPIC 6 — Gamificação
+
+## US025 — Conquistas
+
+**Como** leitor
+
+**Quero** desbloquear medalhas
+
+**Para que** minha experiência seja mais divertida.
+
+---
+
+## US026 — Sequência de leitura
+
+**Como** leitor
+
+**Quero** acompanhar meus dias consecutivos lendo
+
+**Para que** eu mantenha a consistência.
+
+---
+
+# 📱 EPIC 7 — Aplicativo
+
+## US027 — Sincronização
+
+**Como** leitor
+
+**Quero** acessar minha biblioteca em qualquer dispositivo
+
+**Para que** minhas informações estejam sempre disponíveis.
+
+---
+
+## US028 — Scanner ISBN
+
+**Como** leitor
+
+**Quero** cadastrar livros pela câmera
+
+**Para que** o cadastro seja rápido.
+
+---
+
+# 👥 EPIC 8 — Comunidade
+
+## US029 — Compartilhar leituras
+
+**Como** leitor
+
+**Quero** compartilhar minhas leituras
+
+**Para que** eu possa interagir com outros leitores.
+
+---
+
+## US030 — Clubes de leitura
+
+**Como** leitor
+
+**Quero** participar de clubes de leitura
+
+**Para que** eu descubra novos livros.
+
+---
+
+# 🧠 EPIC 9 — Inteligência Artificial
+
+## US031 — Recomendações Inteligentes
+
+**Como** leitor
+
+**Quero** receber recomendações personalizadas
+
+**Para que** eu descubra livros alinhados ao meu perfil.
+
+---
+
+## US032 — Planejamento automático
+
+**Como** leitor
+
+**Quero** que o sistema calcule automaticamente meu plano de leitura
+
+**Para que** eu consiga atingir minhas metas sem precisar fazer cálculos.
+
+---
+
+## US033 — Análise do perfil
+
+**Como** leitor
+
+**Quero** conhecer meu perfil literário
+
+**Para que** eu compreenda minha evolução como leitor.
+
+---
+
+# 📌 Observações
+
+As User Stories serão refinadas continuamente durante o desenvolvimento do Donnexa.
+
+Novas histórias poderão ser adicionadas conforme surgirem novas necessidades, ideias e funcionalidades.
+
+O objetivo deste documento é garantir que todas as funcionalidades do sistema sejam desenvolvidas pensando na experiência do usuário e não apenas na implementação técnica.

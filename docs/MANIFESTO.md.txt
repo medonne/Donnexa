@@ -1,0 +1,215 @@
+# 📜 MANIFESTO — Donnexa
+
+> "Toda leitura deixa uma marca."
+
+---
+
+# Por que existimos?
+
+Vivemos cercados por informações.
+
+Todos os dias novos livros são publicados.
+
+Novas histórias são contadas.
+
+Novas ideias transformam pessoas.
+
+Mesmo assim, muitas leituras acabam esquecidas com o passar do tempo.
+
+O Donnexa nasceu para mudar isso.
+
+---
+
+# Acreditamos que...
+
+## 📚 Ler transforma.
+
+Cada livro amplia nossa forma de enxergar o mundo.
+
+Não importa o gênero.
+
+Não importa a quantidade de páginas.
+
+Toda leitura acrescenta algo.
+
+---
+
+## 📖 Toda leitura merece ser lembrada.
+
+Não queremos apenas registrar livros.
+
+Queremos registrar jornadas.
+
+Cada data de conclusão.
+
+Cada releitura.
+
+Cada meta alcançada.
+
+Cada página representa um momento da vida do leitor.
+
+---
+
+## 📊 Dados contam histórias.
+
+Um gráfico não representa apenas números.
+
+Ele mostra hábitos.
+
+Constância.
+
+Evolução.
+
+Mudanças.
+
+Conquistas.
+
+Acreditamos que Business Intelligence pode aproximar as pessoas dos seus objetivos.
+
+---
+
+## 🎯 Metas devem inspirar.
+
+Metas não existem para gerar culpa.
+
+Elas existem para mostrar o caminho.
+
+O Donnexa nunca será um sistema que julga.
+
+Será um sistema que incentiva.
+
+---
+
+## 🤝 A tecnologia deve servir às pessoas.
+
+Não acreditamos em sistemas complexos.
+
+Acreditamos em experiências simples.
+
+Intuitivas.
+
+Leves.
+
+Humanas.
+
+Quanto menos o usuário pensar na ferramenta, mais tempo ele poderá dedicar aos livros.
+
+---
+
+## 🌱 Evolução acontece aos poucos.
+
+Grandes bibliotecas não são construídas em um dia.
+
+Grandes leitores também não.
+
+Cada página lida importa.
+
+Cada pequeno progresso merece ser celebrado.
+
+---
+
+## ❤️ Organização também é autocuidado.
+
+Organizar a biblioteca.
+
+Planejar leituras.
+
+Definir metas.
+
+Registrar conquistas.
+
+Tudo isso é uma forma de cuidar da própria jornada.
+
+---
+
+## 💡 Conhecimento é um investimento.
+
+Livros nunca são apenas um gasto.
+
+São experiências.
+
+Aprendizados.
+
+Memórias.
+
+Cada obra lida amplia aquilo que somos.
+
+---
+
+## 🚀 O Donnexa também cresce.
+
+O Donnexa não nasceu pronto.
+
+Ele evolui continuamente.
+
+Cada tecnologia aprendida.
+
+Cada melhoria implementada.
+
+Cada funcionalidade adicionada.
+
+Representa não apenas a evolução do sistema, mas também a evolução da pessoa que o constrói.
+
+---
+
+# Nosso compromisso
+
+Construir uma plataforma que incentive a leitura.
+
+Que respeite o tempo do leitor.
+
+Que valorize seus hábitos.
+
+Que transforme dados em conhecimento.
+
+E que torne cada conquista visível.
+
+---
+
+# Nosso sonho
+
+Um dia, quando alguém abrir o Donnexa, não verá apenas uma lista de livros.
+
+Verá sua própria história.
+
+Verá os livros que mudaram sua forma de pensar.
+
+As metas que alcançou.
+
+Os desafios que superou.
+
+As páginas que marcaram sua vida.
+
+Porque livros contam histórias.
+
+Mas leitores também.
+
+---
+
+# Nossa assinatura
+
+> Não construímos apenas um sistema para registrar livros.
+
+> Construímos um lugar para acompanhar jornadas.
+
+---
+
+# Nosso lema
+
+> **Toda leitura deixa uma marca.**
+
+
+# A Jornada da Criadora
+
+O Donnexa também é um registro da minha própria evolução.
+
+Cada versão do projeto representa um novo conhecimento adquirido.
+
+Cada funcionalidade implementada reflete um desafio superado.
+
+Ao longo da graduação em Análise e Desenvolvimento de Sistemas, este projeto crescerá junto comigo.
+
+Mais do que um portfólio, o Donnexa é a prova de que aprender é um processo contínuo.
+
+Assim como a leitura.
+

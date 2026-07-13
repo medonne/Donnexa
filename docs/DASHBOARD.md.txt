@@ -1,0 +1,502 @@
+# 📊 DASHBOARD — Donnexa
+
+> Última atualização: Julho de 2026
+
+---
+
+# Objetivo
+
+Este documento descreve a estrutura do Dashboard do Donnexa.
+
+O objetivo é criar uma experiência moderna, organizada e intuitiva, permitindo que o usuário acompanhe sua jornada de leitura através de indicadores, gráficos e insights.
+
+O dashboard deverá priorizar a simplicidade, mantendo todas as informações importantes acessíveis em poucos cliques.
+
+---
+
+# Princípios de Design
+
+O Dashboard seguirá os princípios definidos na identidade visual do Donnexa.
+
+## Intelectual
+
+Os dados devem gerar conhecimento.
+
+Não serão exibidos gráficos apenas por estética.
+
+Cada visualização deverá responder a uma pergunta relevante.
+
+---
+
+## Organizado
+
+As informações serão agrupadas por contexto.
+
+O usuário nunca deverá sentir que está procurando informações.
+
+---
+
+## Moderno
+
+Visual limpo.
+
+Poucos elementos.
+
+Espaços em branco.
+
+Ícones discretos.
+
+Tipografia consistente.
+
+---
+
+## Acolhedor
+
+O Dashboard deve incentivar a leitura.
+
+As mensagens serão positivas e motivacionais.
+
+---
+
+# Estrutura Geral
+
+O Dashboard será dividido em módulos.
+
+```
+┌──────────────────────────────────────────────┐
+│ Cabeçalho                                   │
+├──────────────────────────────────────────────┤
+│ KPIs Principais                             │
+├──────────────────────────────────────────────┤
+│ Metas                                       │
+├──────────────────────────────────────────────┤
+│ Estatísticas                                │
+├──────────────────────────────────────────────┤
+│ Biblioteca                                  │
+├──────────────────────────────────────────────┤
+│ Insights                                    │
+└──────────────────────────────────────────────┘
+```
+
+---
+
+# Página 1 — Home
+
+Objetivo:
+
+Apresentar uma visão geral da jornada de leitura.
+
+---
+
+## KPIs
+
+- Leituras concluídas
+- Livros na biblioteca
+- Lista de desejos
+- Meta anual
+
+---
+
+## Meta anual
+
+Exibir:
+
+```
+33 / 50 livros
+
+66%
+```
+
+---
+
+## Meta de páginas
+
+Exibir:
+
+```
+9.850 / 18.000 páginas
+
+54%
+```
+
+---
+
+## Mensagem Inteligente
+
+Exemplo:
+
+> 📚 Bom dia!
+
+Você está 2 livros à frente da meta.
+
+Continue assim!
+
+---
+
+## Próximo objetivo
+
+Exemplo:
+
+Restam:
+
+- 17 livros
+- 8.150 páginas
+
+---
+
+# Página 2 — Biblioteca
+
+Objetivo:
+
+Visualizar toda a coleção.
+
+---
+
+## KPIs
+
+- Total de livros
+- Livros físicos
+- Kindle
+- Audiobooks
+- Lista de desejos
+
+---
+
+## Gráficos
+
+- Livros por gênero
+- Livros por editora
+- Livros por formato
+- Livros por idioma
+
+---
+
+## Tabela
+
+Lista completa dos livros.
+
+Filtros:
+
+- Autor
+- Gênero
+- Editora
+- Formato
+- Possui
+- Lista de desejos
+
+---
+
+# Página 3 — Leituras
+
+Objetivo:
+
+Analisar hábitos de leitura.
+
+---
+
+## KPIs
+
+- Leituras concluídas
+- Releituras
+- Páginas lidas
+- Nota média
+
+---
+
+## Gráficos
+
+- Leituras por mês
+- Leituras por ano
+- Páginas por mês
+- Evolução anual
+
+---
+
+## Tabela
+
+Histórico completo das leituras.
+
+---
+
+# Página 4 — Metas
+
+Objetivo:
+
+Acompanhar a evolução das metas.
+
+---
+
+## KPIs
+
+- Meta de livros
+- Meta de páginas
+- Percentual concluído
+- Dias restantes
+
+---
+
+## Indicadores
+
+- Média de páginas por dia
+- Média de livros por mês
+- Ritmo atual
+- Ritmo necessário
+
+---
+
+## Gráficos
+
+- Evolução da meta
+- Comparação entre anos
+- Progresso mensal
+
+---
+
+# Página 5 — Estatísticas
+
+Objetivo:
+
+Descobrir padrões de leitura.
+
+---
+
+## KPIs
+
+- Autor favorito
+- Gênero favorito
+- Editora favorita
+- Maior livro
+- Menor livro
+
+---
+
+## Rankings
+
+Top 10 autores
+
+Top 10 editoras
+
+Top 10 gêneros
+
+---
+
+## Comparativos
+
+- Livros físicos x digitais
+- Ficção x não ficção
+- Nacional x internacional
+
+---
+
+# Página 6 — Perfil do Leitor
+
+Objetivo:
+
+Apresentar um resumo completo do perfil de leitura.
+
+---
+
+## Indicadores
+
+- Perfil literário
+- Gêneros preferidos
+- Média de notas
+- Ritmo de leitura
+
+---
+
+## Evolução
+
+Comparação entre anos.
+
+Mudança de hábitos.
+
+Evolução da biblioteca.
+
+---
+
+# Página 7 — Insights
+
+Objetivo:
+
+Mostrar informações inteligentes.
+
+---
+
+## Exemplos
+
+Você está à frente da meta.
+
+Seu ritmo aumentou.
+
+Seu gênero favorito mudou.
+
+Você leu mais este mês do que no mês anterior.
+
+Faltam apenas 680 páginas.
+
+Mantendo esse ritmo, você concluirá sua meta em novembro.
+
+---
+
+# Filtros Globais
+
+Disponíveis em todas as páginas.
+
+- Ano
+- Autor
+- Gênero
+- Editora
+- Formato
+
+---
+
+# Navegação
+
+O usuário poderá navegar através do menu lateral.
+
+```
+🏠 Home
+
+📚 Biblioteca
+
+📖 Leituras
+
+🎯 Metas
+
+📈 Estatísticas
+
+👤 Perfil
+
+💡 Insights
+```
+
+---
+
+# Layout
+
+## Cabeçalho
+
+Logo.
+
+Nome do Dashboard.
+
+Data da última atualização.
+
+---
+
+## KPIs
+
+Sempre na parte superior.
+
+Organizados horizontalmente.
+
+Cards de mesmo tamanho.
+
+---
+
+## Gráficos
+
+Máximo de dois gráficos por linha.
+
+Espaçamento amplo.
+
+Priorizar gráficos simples.
+
+---
+
+## Tabelas
+
+Sempre com filtros.
+
+Ordenação.
+
+Pesquisa.
+
+---
+
+# Paleta
+
+Seguir a identidade visual oficial.
+
+Fundo:
+
+#F8F5F2
+
+Verde:
+
+#1A5108
+
+Marrom:
+
+#402309
+
+Vinho:
+
+#541111
+
+---
+
+# Tipografia
+
+Título
+
+Segoe UI Semibold
+
+Subtítulos
+
+Segoe UI
+
+Texto
+
+Segoe UI
+
+---
+
+# Ícones
+
+Estilo Outline.
+
+Sem excesso de cores.
+
+Ícones discretos.
+
+---
+
+# Responsividade
+
+O Dashboard deverá funcionar em:
+
+- Desktop
+- Notebook
+- Tablet
+
+Futuramente:
+
+- Aplicativo Mobile
+
+---
+
+# Evolução
+
+Versão 1.0
+
+Dashboard Power BI.
+
+Versão 2.0
+
+Dashboard Web.
+
+Versão 3.0
+
+Dashboard Mobile.
+
+---
+
+# Objetivo Final
+
+O Dashboard do Donnexa não deverá apenas mostrar gráficos.
+
+Ele deverá responder perguntas, incentivar hábitos saudáveis de leitura e transformar dados em decisões.
+
+Cada informação apresentada deve ajudar o leitor a compreender melhor sua jornada literária.

@@ -1,0 +1,452 @@
+# 🏛️ ARCHITECTURE — Donnexa
+
+> Última atualização: Julho de 2026
+
+---
+
+# Objetivo
+
+Este documento descreve a arquitetura atual e a arquitetura planejada para o Donnexa.
+
+O projeto foi concebido para evoluir gradualmente, acompanhando o aprendizado das tecnologias utilizadas durante o curso de Análise e Desenvolvimento de Sistemas.
+
+A arquitetura foi planejada para permitir crescimento sem necessidade de reconstrução completa do sistema.
+
+---
+
+# Visão Geral
+
+Atualmente o Donnexa funciona como uma solução de Business Intelligence baseada em Excel e Power BI.
+
+No futuro, evoluirá para uma plataforma completa composta por banco de dados, API, aplicação web e aplicativo mobile.
+
+---
+
+# Arquitetura Atual (v1.0)
+
+```text
+                 Usuário
+                    │
+                    ▼
+              Planilhas Excel
+                    │
+                    ▼
+              Power Query
+                    │
+                    ▼
+            Modelo Relacional
+                    │
+                    ▼
+                  DAX
+                    │
+                    ▼
+             Dashboard Power BI
+```
+
+## Camadas
+
+### Camada de Dados
+
+Responsável pelo armazenamento das informações.
+
+Tecnologia:
+
+- Microsoft Excel
+
+Responsabilidades:
+
+- Cadastro dos livros
+- Cadastro das leituras
+- Cadastro da biblioteca
+- Cadastro das dimensões
+
+---
+
+### Camada de Transformação
+
+Responsável pela limpeza e preparação dos dados.
+
+Tecnologia:
+
+- Power Query
+
+Responsabilidades:
+
+- Remover inconsistências
+- Ajustar tipos de dados
+- Criar relacionamentos
+- Preparar tabelas
+
+---
+
+### Camada Analítica
+
+Responsável pelos cálculos.
+
+Tecnologia:
+
+- DAX
+
+Responsabilidades:
+
+- KPIs
+- Metas
+- Indicadores
+- Estatísticas
+- Insights
+
+---
+
+### Camada de Visualização
+
+Responsável pela apresentação dos dados.
+
+Tecnologia:
+
+- Power BI
+
+Responsabilidades:
+
+- Dashboard
+- Gráficos
+- Cartões
+- Filtros
+- Navegação
+
+---
+
+# Arquitetura Futura (v2.0)
+
+```text
+                Usuário
+                    │
+      ┌─────────────┴─────────────┐
+      ▼                           ▼
+  Aplicação Web             Aplicativo
+      │                           │
+      └─────────────┬─────────────┘
+                    ▼
+                API REST
+                    │
+                    ▼
+              SQL Server
+                    │
+                    ▼
+             Power BI (Analytics)
+```
+
+---
+
+# Evolução Tecnológica
+
+## Etapa 1
+
+Excel
+
+Objetivo:
+
+Estruturar os dados.
+
+---
+
+## Etapa 2
+
+Power Query
+
+Objetivo:
+
+Criar o processo ETL.
+
+---
+
+## Etapa 3
+
+Power BI
+
+Objetivo:
+
+Construir dashboards e indicadores.
+
+---
+
+## Etapa 4
+
+SQL Server
+
+Objetivo:
+
+Centralizar o armazenamento dos dados.
+
+---
+
+## Etapa 5
+
+Python
+
+Objetivo:
+
+Automatizar processos.
+
+Exemplos:
+
+- Importação de livros
+- Atualizações automáticas
+- ETL
+- Integrações
+
+---
+
+## Etapa 6
+
+API REST
+
+Objetivo:
+
+Disponibilizar os dados para aplicações externas.
+
+---
+
+## Etapa 7
+
+Front-end
+
+Tecnologias previstas:
+
+- HTML
+- CSS
+- JavaScript
+- React
+
+---
+
+## Etapa 8
+
+Aplicativo Mobile
+
+Tecnologias previstas:
+
+- React Native (ou Flutter)
+
+---
+
+# Fluxo dos Dados
+
+```text
+Cadastro
+    │
+    ▼
+Excel
+    │
+    ▼
+Power Query
+    │
+    ▼
+Modelo Relacional
+    │
+    ▼
+DAX
+    │
+    ▼
+Dashboard
+    │
+    ▼
+Usuário
+```
+
+---
+
+# Arquitetura do Banco
+
+Modelo Relacional
+
+```text
+Autores ───────┐
+               │
+Editoras ──────┤
+               │
+Gêneros ───────┤
+               ▼
+            Livros
+               │
+     ┌─────────┴─────────┐
+     ▼                   ▼
+ Biblioteca         Leituras
+                         │
+                    Calendário
+                         │
+                      Metas
+```
+
+---
+
+# Organização do Projeto
+
+```text
+Donnexa/
+│
+├── README.md
+│
+├── docs/
+│   ├── 01_ROADMAP.md
+│   ├── 02_PRODUCT_BACKLOG.md
+│   ├── 03_USER_STORIES.md
+│   ├── 04_VISION.md
+│   ├── 05_MANIFESTO.md
+│   ├── 06_MODELAGEM_DADOS.md
+│   ├── 07_DASHBOARD.md
+│   ├── 08_CHANGELOG.md
+│   └── 09_ARCHITECTURE.md
+│
+├── database/
+│   ├── excel/
+│   ├── sql/
+│   └── backups/
+│
+├── powerbi/
+│   ├── dashboards/
+│   ├── templates/
+│   └── themes/
+│
+├── assets/
+│   ├── logo/
+│   ├── icons/
+│   ├── colors/
+│   └── mockups/
+│
+├── app/
+│
+├── web/
+│
+└── api/
+```
+
+---
+
+# Padrões Arquiteturais
+
+## Separação de Responsabilidades
+
+Cada camada possui uma responsabilidade específica.
+
+- Dados armazenam informações.
+- Power Query transforma os dados.
+- DAX realiza cálculos.
+- Power BI apresenta resultados.
+
+---
+
+## Escalabilidade
+
+A arquitetura foi planejada para crescer sem necessidade de remodelagem.
+
+Novos módulos poderão ser adicionados sem impactar os existentes.
+
+---
+
+## Reutilização
+
+As tabelas de dimensão serão reutilizadas em todo o projeto.
+
+Evita duplicação de dados.
+
+Facilita manutenção.
+
+---
+
+## Manutenibilidade
+
+Toda regra de negócio deverá ficar centralizada.
+
+Evitar lógica duplicada.
+
+Evitar cálculos repetidos.
+
+---
+
+# Tecnologias
+
+## Atualmente
+
+- Excel
+- Power Query
+- Power BI
+- DAX
+- Git
+- GitHub
+
+---
+
+## Próximas
+
+- SQL Server
+- Python
+- HTML
+- CSS
+- JavaScript
+
+---
+
+## Futuras
+
+- React
+- API REST
+- .NET
+- Azure
+- Docker
+
+---
+
+# Princípios Arquiteturais
+
+O Donnexa seguirá alguns princípios durante toda sua evolução.
+
+## Simplicidade
+
+Escolher sempre a solução mais simples que resolva o problema.
+
+---
+
+## Organização
+
+Cada funcionalidade terá um local específico no projeto.
+
+---
+
+## Escalabilidade
+
+Toda nova funcionalidade deve considerar o crescimento futuro.
+
+---
+
+## Reutilização
+
+Evitar duplicação de código, consultas ou estruturas de dados.
+
+---
+
+## Documentação
+
+Toda alteração significativa na arquitetura deverá ser registrada na documentação do projeto.
+
+---
+
+# Visão de Longo Prazo
+
+O Donnexa será desenvolvido como um ecossistema composto por:
+
+- Banco de Dados
+- API
+- Dashboard Analítico
+- Aplicação Web
+- Aplicativo Mobile
+- Inteligência Artificial
+
+Todos os módulos compartilharão a mesma base de dados, garantindo consistência das informações e uma experiência integrada para o usuário.
+
+---
+
+# Objetivo Final
+
+Construir uma plataforma moderna, organizada e escalável, capaz de acompanhar a evolução tecnológica do projeto e oferecer uma experiência completa para leitores.
+
+A arquitetura do Donnexa foi planejada para crescer de forma sustentável, permitindo a incorporação de novas tecnologias sem comprometer a estabilidade ou a organização do sistema.

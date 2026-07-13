@@ -1,0 +1,434 @@
+# 🗄️ MODELAGEM DE DADOS — Donnexa
+
+> Última atualização: Julho de 2026
+
+---
+
+# Objetivo
+
+Este documento descreve a estrutura do banco de dados do Donnexa.
+
+A modelagem foi desenvolvida seguindo princípios de normalização, visando facilitar a manutenção dos dados, reduzir redundâncias e permitir a evolução do sistema para SQL Server e futuras aplicações web e mobile.
+
+---
+
+# Arquitetura
+
+O Donnexa utiliza atualmente uma estrutura relacional composta por tabelas independentes conectadas através de chaves.
+
+O modelo foi pensado para crescer sem necessidade de grandes alterações estruturais.
+
+Atualmente os dados são armazenados em Excel e consumidos pelo Power BI.
+
+Futuramente serão migrados para SQL Server.
+
+---
+
+# Modelo Conceitual
+
+```text
+                tb_autores
+                     │
+                     │
+                ID_Autor
+                     │
+                     ▼
+                 tb_livros
+                     │
+         ┌───────────┼────────────┐
+         │           │            │
+         ▼           ▼            ▼
+ tb_editoras   tb_generos   tb_formatos
+
+                     │
+                     │
+               ID_Livro
+                     │
+        ┌────────────┴────────────┐
+        ▼                         ▼
+ tb_leituras              tb_biblioteca
+
+        │
+        ▼
+ Calendario
+
+        │
+        ▼
+ tb_metas (em desenvolvimento)
+```
+
+---
+
+# Dicionário de Dados
+
+---
+
+# 📚 tb_livros
+
+Tabela principal do sistema.
+
+Cada registro representa um livro.
+
+## Responsabilidades
+
+- Informações bibliográficas
+- Características da obra
+- Relação com autor
+- Relação com editora
+- Relação com gênero
+- Relação com formato
+
+## Chave Primária
+
+ID_Livro
+
+## Principais campos
+
+- ID_Livro
+- ISBN
+- Título
+- Subtítulo
+- Número de páginas
+- Ano de publicação
+- ID_Autor
+- ID_Editora
+- ID_Genero
+- ID_Formato
+- URL_Capa
+
+---
+
+# 👤 tb_autores
+
+Armazena os autores cadastrados.
+
+## Chave Primária
+
+ID_Autor
+
+## Campos
+
+- ID_Autor
+- Nome
+- Nacionalidade (futuro)
+- Data de nascimento (futuro)
+
+---
+
+# 🏢 tb_editoras
+
+Cadastro de editoras.
+
+## Chave Primária
+
+ID_Editora
+
+## Campos
+
+- ID_Editora
+- Editora
+
+---
+
+# 📚 tb_generos
+
+Cadastro de gêneros literários.
+
+## Chave Primária
+
+ID_Genero
+
+## Campos
+
+- ID_Genero
+- Gênero
+
+---
+
+# 📖 tb_formatos
+
+Cadastro de formatos.
+
+## Chave Primária
+
+ID_Formato
+
+## Exemplos
+
+- Físico
+- Kindle
+- eBook
+- Audiobook
+
+---
+
+# 📖 tb_leituras
+
+Registra cada leitura realizada.
+
+Uma releitura gera um novo registro.
+
+Esta tabela representa o histórico de leitura do usuário.
+
+## Chave Primária
+
+ID_Leitura
+
+## Chave Estrangeira
+
+ID_Livro
+
+## Campos
+
+- ID_Leitura
+- ID_Livro
+- Data_Inicio
+- Data_Conclusao
+- Nota
+- Ano_Meta
+- Observações (futuro)
+
+---
+
+# 📚 tb_biblioteca
+
+Representa a biblioteca pessoal do usuário.
+
+Foi separada da tabela de livros para permitir que um livro exista no catálogo sem necessariamente fazer parte da biblioteca.
+
+## Chave Primária
+
+ID_Biblioteca
+
+## Chave Estrangeira
+
+ID_Livro
+
+## Campos
+
+- ID_Biblioteca
+- ID_Livro
+- Possui
+- Lista_Desejos
+- Data_Compra (futuro)
+- Valor_Pago (futuro)
+- Localização (futuro)
+
+---
+
+# 📅 Calendario
+
+Tabela de datas utilizada pelo Power BI.
+
+Responsável por permitir análises temporais.
+
+## Campos
+
+- Data
+- Ano
+- Mês
+- Nome do mês
+- Trimestre
+- Semana
+- Dia
+
+---
+
+# 🎯 tb_metas
+
+(Em desenvolvimento)
+
+Armazena as metas anuais do usuário.
+
+## Campos previstos
+
+- Ano
+- Meta_Livros
+- Meta_Paginas
+
+No futuro:
+
+- Meta_Autores
+- Meta_Generos
+
+---
+
+# Relacionamentos
+
+## tb_livros → tb_leituras
+
+Relacionamento:
+
+1:N
+
+Um livro pode possuir diversas leituras.
+
+---
+
+## tb_livros → tb_biblioteca
+
+Relacionamento:
+
+1:1
+
+Cada livro possui apenas um registro na biblioteca.
+
+---
+
+## tb_autores → tb_livros
+
+Relacionamento:
+
+1:N
+
+Um autor pode possuir vários livros.
+
+---
+
+## tb_editoras → tb_livros
+
+Relacionamento:
+
+1:N
+
+Uma editora publica vários livros.
+
+---
+
+## tb_generos → tb_livros
+
+Relacionamento:
+
+1:N
+
+Um gênero pode conter diversos livros.
+
+---
+
+## tb_formatos → tb_livros
+
+Relacionamento:
+
+1:N
+
+Um formato pode estar presente em diversos livros.
+
+---
+
+## Calendario → tb_leituras
+
+Relacionamento:
+
+1:N
+
+Permite análises temporais.
+
+---
+
+## Calendario → tb_metas
+
+Relacionamento:
+
+1:N
+
+Permite metas dinâmicas por ano.
+
+---
+
+# Decisões de Arquitetura
+
+Durante a modelagem algumas decisões importantes foram tomadas.
+
+## Separação entre Livro e Leitura
+
+Um livro representa uma obra.
+
+Uma leitura representa um evento.
+
+Isso permite registrar releituras sem duplicar livros.
+
+---
+
+## Separação entre Livro e Biblioteca
+
+Nem todo livro cadastrado pertence à biblioteca.
+
+Também é possível desejar adquirir um livro sem possuí-lo.
+
+Essa decisão permitiu criar funcionalidades como:
+
+- Lista de desejos
+- Controle de posse
+- Futuro controle de empréstimos
+
+---
+
+## Uso de Tabelas de Dimensão
+
+Autores, editoras, gêneros e formatos foram separados em tabelas próprias.
+
+Benefícios:
+
+- Evita repetição de dados.
+- Facilita filtros.
+- Melhora a modelagem.
+- Aproxima o projeto de um Data Warehouse.
+
+---
+
+# Próximas Evoluções
+
+Planejadas para versões futuras.
+
+## Novas tabelas
+
+- tb_series
+- tb_colecoes
+- tb_paises
+- tb_idiomas
+- tb_avaliacoes
+- tb_emprestimos
+
+---
+
+## Migração
+
+A arquitetura foi planejada para facilitar a migração para:
+
+- SQL Server
+- API REST
+- Aplicação Web
+- Aplicativo Mobile
+
+---
+
+# Considerações Finais
+
+A modelagem do Donnexa foi construída com foco em escalabilidade, organização e reutilização dos dados.
+
+Embora atualmente utilize Excel como fonte de dados, toda a estrutura foi pensada para suportar futuras evoluções sem necessidade de remodelagem significativa.
+
+O objetivo é que o banco de dados acompanhe a evolução do projeto, tornando-se a base para uma plataforma completa de gestão de leitura.
+
+Excel
+   │
+   ▼
+Power Query
+   │
+   ▼
+Power BI
+   │
+   ▼
+SQL Server
+   │
+   ▼
+Python (ETL/API)
+   │
+   ▼
+Backend (.NET)
+   │
+   ▼
+React (Web)
+   │
+   ▼
+Aplicativo Mobile

@@ -1,0 +1,308 @@
+# 🗺️ ROADMAP — Donnexa
+
+> Última atualização: Julho de 2026
+
+---
+
+# 📖 Visão do Produto
+
+O Donnexa nasceu como um projeto de estudos em Power BI e análise de dados, mas evoluiu para uma plataforma completa de gestão de leitura.
+
+Mais do que registrar livros, o objetivo é ajudar leitores a criarem hábitos, acompanharem metas, descobrirem padrões de leitura e, futuramente, interagirem com uma comunidade de leitores.
+
+---
+
+# 🎯 Missão
+
+Transformar dados de leitura em conhecimento, motivação e organização, tornando a experiência de ler mais inteligente, prazerosa e personalizada.
+
+---
+
+# 🚀 Visão de Longo Prazo
+
+Ser uma plataforma completa para leitores, unindo:
+
+- Biblioteca pessoal
+- Controle de leituras
+- Estatísticas avançadas
+- Metas inteligentes
+- Recomendações
+- Dashboard analítico
+- Aplicativo
+- Comunidade
+
+---
+
+# 📅 Roadmap de Desenvolvimento
+
+---
+
+# ✅ Versão 1.0 — MVP (Em Desenvolvimento)
+
+Objetivo:
+
+Construir uma solução completa de Business Intelligence para controle da biblioteca pessoal.
+
+## Biblioteca
+
+- [x] Cadastro de livros
+- [x] Cadastro de autores
+- [x] Cadastro de editoras
+- [x] Controle de gêneros
+- [x] Controle de formatos
+- [x] Controle de livros físicos e digitais
+- [x] Lista de desejos
+- [x] Controle de posse dos livros
+
+---
+
+## Leituras
+
+- [x] Registro de leituras
+- [x] Registro de releituras
+- [x] Nota da leitura
+- [x] Data de conclusão
+- [x] Meta anual
+
+---
+
+## Dashboard
+
+- [ ] KPIs principais
+- [ ] Dashboard Home
+- [ ] Leituras por período
+- [ ] Gêneros favoritos
+- [ ] Ranking de autores
+- [ ] Ranking de editoras
+- [ ] Histórico de leituras
+
+---
+
+## Metas
+
+- [ ] Meta anual de livros
+- [ ] Meta anual de páginas
+- [ ] Progresso da meta
+- [ ] Livros restantes
+- [ ] Páginas restantes
+- [ ] Ritmo necessário
+
+---
+
+## Inteligência
+
+- [ ] Mensagem diária
+- [ ] Progresso automático
+- [ ] Insights personalizados
+
+---
+
+# 🚀 Versão 1.1
+
+Objetivo:
+
+Melhorar a experiência de uso.
+
+## Novidades
+
+- [ ] Dashboard Biblioteca
+- [ ] Dashboard Estatísticas
+- [ ] Dashboard Autores
+- [ ] Dashboard Editoras
+- [ ] Dashboard Gêneros
+
+---
+
+## Biblioteca
+
+- [ ] Valor estimado da coleção
+- [ ] Controle de empréstimos
+- [ ] Livros favoritos
+
+---
+
+## Leituras
+
+- [ ] Tempo médio de leitura
+- [ ] Livros abandonados
+- [ ] Livros em andamento
+
+---
+
+# 🚀 Versão 1.5
+
+Objetivo:
+
+Transformar o Donnexa em um assistente de leitura.
+
+## Novidades
+
+- [ ] Recomendações inteligentes
+- [ ] Ranking anual
+- [ ] Evolução mensal
+- [ ] Calendário de leitura
+
+---
+
+## Gamificação
+
+- [ ] Conquistas
+- [ ] Medalhas
+- [ ] Sequência de leitura
+- [ ] Recordes pessoais
+
+---
+
+# 🚀 Versão 2.0
+
+Objetivo:
+
+Migrar do Power BI para uma aplicação web.
+
+## Backend
+
+- [ ] SQL Server
+- [ ] API
+- [ ] Python
+- [ ] Automações
+
+---
+
+## Front-end
+
+- [ ] Site
+- [ ] Login
+- [ ] Perfil
+- [ ] Biblioteca online
+
+---
+
+## Dashboard
+
+- [ ] Dashboard Web
+- [ ] Dashboard Responsivo
+
+---
+
+# 🚀 Versão 2.5
+
+Objetivo:
+
+Criar recursos sociais.
+
+## Comunidade
+
+- [ ] Amigos
+- [ ] Compartilhamento
+- [ ] Recomendações entre usuários
+- [ ] Clubes de leitura
+
+---
+
+# 🚀 Versão 3.0
+
+Objetivo:
+
+Lançar o aplicativo oficial.
+
+## Aplicativo
+
+- [ ] Android
+- [ ] iOS
+
+---
+
+## Funcionalidades
+
+- [ ] Scanner de ISBN
+- [ ] Cadastro por câmera
+- [ ] Notificações
+- [ ] Widget
+- [ ] Sincronização em nuvem
+
+---
+
+# 💡 Ideias Futuras
+
+## Inteligência Artificial
+
+- [ ] Recomendações personalizadas
+- [ ] Resumo automático
+- [ ] Análise de hábitos
+- [ ] Planejamento automático da meta
+
+---
+
+## Dashboard Avançado
+
+- [ ] Heatmap de leitura
+- [ ] Timeline
+- [ ] Comparativos anuais
+- [ ] Evolução por gênero
+- [ ] Evolução por autor
+- [ ] Evolução por editora
+
+---
+
+## Biblioteca
+
+- [ ] Controle de coleções
+- [ ] Séries
+- [ ] Universos literários
+
+---
+
+## Relatórios
+
+- [ ] Relatório anual
+- [ ] Retrospectiva da leitura
+- [ ] PDF personalizado
+
+---
+
+# 🏗️ Tecnologias
+
+## Atualmente
+
+- Excel
+- Power Query
+- Power BI
+- DAX
+
+---
+
+## Próximas
+
+- Git
+- GitHub
+- SQL Server
+- Python
+- HTML
+- CSS
+- JavaScript
+
+---
+
+## Futuras
+
+- React
+- .NET
+- API REST
+- Azure
+- Docker
+
+---
+
+# 📈 Objetivo do Projeto
+
+O Donnexa será desenvolvido como um projeto contínuo de aprendizado, acompanhando minha evolução como profissional de tecnologia.
+
+Cada nova habilidade adquirida durante a graduação em Análise e Desenvolvimento de Sistemas será aplicada ao projeto, permitindo sua evolução constante e tornando-o um portfólio prático das tecnologias estudadas.
+
+---
+
+# ❤️ Filosofia do Donnexa
+
+> "Toda leitura deixa uma marca."
+
+O Donnexa existe para transformar números em histórias, metas em conquistas e dados em motivação para que cada leitor acompanhe sua própria jornada literária.
