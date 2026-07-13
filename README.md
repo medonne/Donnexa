@@ -87,22 +87,96 @@ O Donnexa pretende oferecer uma experiência completa para leitores.
 
 ---
 
-# 🚀 Roadmap
+# 🎨 Identidade Visual
 
-## Fase 1 — Business Intelligence ✅
+## Personalidade
 
-- Dashboard Home
-- Indicadores principais
-- Biblioteca
-- Meta Anual
-- Lista de Desejos
-- DAX
-- Power Query
-- Modelagem Dimensional
+- Intelectual
+- Moderna
+- Organizada
+- Acolhedora
+
+## Paleta de cores
+
+| Cor | Hex |
+|------|------|
+| Fundo Principal | `#F8F5F2` |
+| Marrom Escuro | `#402309` |
+| Bordô | `#541111` |
+| Vermelho Escuro | `#3C0404` |
+| Verde Escuro | `#032A04` |
+| Verde Principal | `#1A5108` |
 
 ---
 
-## Fase 2 — Banco de Dados
+
+# 👤 Público-alvo
+
+Leitores que desejam:
+
+- Organizar sua biblioteca
+- Registrar leituras
+- Acompanhar metas anuais
+- Visualizar estatísticas
+- Descobrir novos livros
+- Compartilhar experiências de leitura
+
+---
+
+# 🚀 Roadmap
+
+
+
+## Fase 1 — Fundação ✅
+
+- Estrutura do projeto
+- Organização das pastas
+- README inicial
+- Nome oficial do projeto
+- Missão
+- Visão
+- Valores
+- Público-alvo
+- Personalidade
+- Identidade visual
+- Paleta de cores
+- Guia de estilo inicial
+
+---
+## Fase 2 - Base de dados - Excel ✅
+
+- Criação da tabela `tb_livros`
+- Conversão para tabela estruturada
+- Cadastro dos livros
+- Inclusão de ISBN
+- Inclusão de URL das capas
+- Inclusão de datas
+- Inclusão de Ano_Meta
+- Refatoração da modelagem
+- Criação da `tb_leituras`
+- Criação da `tb_biblioteca`
+
+---
+
+## Fase 3 — Business Intelligence ✅
+
+- Configuração do Power BI
+- Criação do projeto `.pbix`
+- Conexão com Excel
+- Importação das tabelas
+- Exploração da interface
+- Criação da tabela Calendário
+- Primeiras colunas em DAX
+- Revisão completa da arquitetura dos dados
+- - Relacionamentos
+- Modelo estrela
+- Medidas em DAX
+- KPIs
+- Dashboard v1
+
+---
+
+## Fase 4 — Banco de Dados
 
 - SQL Server
 - Modelagem Relacional
@@ -113,7 +187,7 @@ O Donnexa pretende oferecer uma experiência completa para leitores.
 
 ---
 
-## Fase 3 — Python
+## Fase 5 — Python
 
 - Automações
 - Tratamento de dados
@@ -124,7 +198,7 @@ O Donnexa pretende oferecer uma experiência completa para leitores.
 
 ---
 
-## Fase 4 — Desenvolvimento Web
+## Fase 6 — Desenvolvimento Web
 
 - Backend
 - Frontend
@@ -134,7 +208,7 @@ O Donnexa pretende oferecer uma experiência completa para leitores.
 
 ---
 
-## Fase 5 — Aplicativo Mobile
+## Fase 7 — Aplicativo Mobile
 
 - Android
 - iOS
@@ -228,6 +302,7 @@ Cada nova tecnologia que aprender será incorporada ao projeto.
 
 Assim, o repositório contará a história do meu crescimento em:
 
+- Excel
 - Business Intelligence
 - Banco de Dados
 - Ciência de Dados
@@ -257,5 +332,5 @@ Em constante aprendizado.
 # 📄 Licença
 
 MIT License
-# Donnexa
+
 
