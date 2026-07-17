@@ -60,17 +60,6 @@ As funcionalidades estão organizadas por módulos e classificadas por prioridad
 
 🟡 Localização na estante
 
-🟡 Valor pago
-
-🟡 Data da compra
-
-🟡 Loja
-
-⚪ Estado de conservação
-
-⚪ Assinado pelo autor
-
-⚪ Primeira edição
 
 ---
 

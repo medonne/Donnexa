@@ -98,69 +98,6 @@ ID_Livro
 
 ---
 
-# 👤 tb_autores
-
-Armazena os autores cadastrados.
-
-## Chave Primária
-
-ID_Autor
-
-## Campos
-
-- ID_Autor
-- Nome
-- Nacionalidade (futuro)
-- Data de nascimento (futuro)
-
----
-
-# 🏢 tb_editoras
-
-Cadastro de editoras.
-
-## Chave Primária
-
-ID_Editora
-
-## Campos
-
-- ID_Editora
-- Editora
-
----
-
-# 📚 tb_generos
-
-Cadastro de gêneros literários.
-
-## Chave Primária
-
-ID_Genero
-
-## Campos
-
-- ID_Genero
-- Gênero
-
----
-
-# 📖 tb_formatos
-
-Cadastro de formatos.
-
-## Chave Primária
-
-ID_Formato
-
-## Exemplos
-
-- Físico
-- Kindle
-- eBook
-- Audiobook
-
----
 
 # 📖 tb_leituras
 
@@ -234,24 +171,7 @@ Responsável por permitir análises temporais.
 
 ---
 
-# 🎯 tb_metas
 
-(Em desenvolvimento)
-
-Armazena as metas anuais do usuário.
-
-## Campos previstos
-
-- Ano
-- Meta_Livros
-- Meta_Paginas
-
-No futuro:
-
-- Meta_Autores
-- Meta_Generos
-
----
 
 # Relacionamentos
 
@@ -275,46 +195,6 @@ Cada livro possui apenas um registro na biblioteca.
 
 ---
 
-## tb_autores → tb_livros
-
-Relacionamento:
-
-1:N
-
-Um autor pode possuir vários livros.
-
----
-
-## tb_editoras → tb_livros
-
-Relacionamento:
-
-1:N
-
-Uma editora publica vários livros.
-
----
-
-## tb_generos → tb_livros
-
-Relacionamento:
-
-1:N
-
-Um gênero pode conter diversos livros.
-
----
-
-## tb_formatos → tb_livros
-
-Relacionamento:
-
-1:N
-
-Um formato pode estar presente em diversos livros.
-
----
-
 ## Calendario → tb_leituras
 
 Relacionamento:
@@ -325,15 +205,6 @@ Permite análises temporais.
 
 ---
 
-## Calendario → tb_metas
-
-Relacionamento:
-
-1:N
-
-Permite metas dinâmicas por ano.
-
----
 
 # Decisões de Arquitetura
 
@@ -361,33 +232,6 @@ Essa decisão permitiu criar funcionalidades como:
 - Controle de posse
 - Futuro controle de empréstimos
 
----
-
-## Uso de Tabelas de Dimensão
-
-Autores, editoras, gêneros e formatos foram separados em tabelas próprias.
-
-Benefícios:
-
-- Evita repetição de dados.
-- Facilita filtros.
-- Melhora a modelagem.
-- Aproxima o projeto de um Data Warehouse.
-
----
-
-# Próximas Evoluções
-
-Planejadas para versões futuras.
-
-## Novas tabelas
-
-- tb_series
-- tb_colecoes
-- tb_paises
-- tb_idiomas
-- tb_avaliacoes
-- tb_emprestimos
 
 ---
 
@@ -396,6 +240,7 @@ Planejadas para versões futuras.
 A arquitetura foi planejada para facilitar a migração para:
 
 - SQL Server
+- Python
 - API REST
 - Aplicação Web
 - Aplicativo Mobile

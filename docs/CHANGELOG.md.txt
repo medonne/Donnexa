@@ -115,17 +115,12 @@ Este projeto segue os princípios do **Keep a Changelog** e utiliza versionament
 #### Estrutura
 
 - Criação da tb_livros
-- Criação da tb_autores
-- Criação da tb_editoras
-- Criação da tb_generos
-- Criação da tb_formatos
 - Criação da tb_biblioteca
 - Criação da tb_leituras
 
 #### Modelagem
 
 - Separação entre livros e leituras
-- Separação entre biblioteca e catálogo
 - Estrutura preparada para SQL Server
 
 #### Melhorias
@@ -152,17 +147,14 @@ Este projeto segue os princípios do **Keep a Changelog** e utiliza versionament
 - Visão
 - Valores
 - Público-alvo
-- Personalidade da marca
 
 #### Design
 
 - Paleta de cores
 - Tipografia
-- Estilo dos ícones
 - Guia para Dashboard
 - Guia para Site
 - Guia para Aplicativo
-- Princípios de acessibilidade
 
 #### Planejamento
 

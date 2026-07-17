@@ -279,48 +279,6 @@ Gêneros ───────┤
 
 ---
 
-# Organização do Projeto
-
-```text
-Donnexa/
-│
-├── README.md
-│
-├── docs/
-│   ├── 01_ROADMAP.md
-│   ├── 02_PRODUCT_BACKLOG.md
-│   ├── 03_USER_STORIES.md
-│   ├── 04_VISION.md
-│   ├── 05_MANIFESTO.md
-│   ├── 06_MODELAGEM_DADOS.md
-│   ├── 07_DASHBOARD.md
-│   ├── 08_CHANGELOG.md
-│   └── 09_ARCHITECTURE.md
-│
-├── database/
-│   ├── excel/
-│   ├── sql/
-│   └── backups/
-│
-├── powerbi/
-│   ├── dashboards/
-│   ├── templates/
-│   └── themes/
-│
-├── assets/
-│   ├── logo/
-│   ├── icons/
-│   ├── colors/
-│   └── mockups/
-│
-├── app/
-│
-├── web/
-│
-└── api/
-```
-
----
 
 # Padrões Arquiteturais
 
@@ -332,34 +290,6 @@ Cada camada possui uma responsabilidade específica.
 - Power Query transforma os dados.
 - DAX realiza cálculos.
 - Power BI apresenta resultados.
-
----
-
-## Escalabilidade
-
-A arquitetura foi planejada para crescer sem necessidade de remodelagem.
-
-Novos módulos poderão ser adicionados sem impactar os existentes.
-
----
-
-## Reutilização
-
-As tabelas de dimensão serão reutilizadas em todo o projeto.
-
-Evita duplicação de dados.
-
-Facilita manutenção.
-
----
-
-## Manutenibilidade
-
-Toda regra de negócio deverá ficar centralizada.
-
-Evitar lógica duplicada.
-
-Evitar cálculos repetidos.
 
 ---
 

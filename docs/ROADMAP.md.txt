@@ -114,8 +114,7 @@ Melhorar a experiência de uso.
 ---
 
 ## Biblioteca
-
-- [ ] Valor estimado da coleção
+- [ ] Quantidade de Livros
 - [ ] Controle de empréstimos
 - [ ] Livros favoritos
 
@@ -268,13 +267,13 @@ Lançar o aplicativo oficial.
 - Power Query
 - Power BI
 - DAX
+- Git
+- GitHub
 
 ---
 
 ## Próximas
 
-- Git
-- GitHub
 - SQL Server
 - Python
 - HTML
